@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DalilAcademy.API/DalilAcademy.API.csproj" />
+  <Project Path="DalilAcademy.Core/DalilAcademy.Core.csproj" />
+  <Project Path="DalilAcademy.Infra/DalilAcademy.Infra.csproj" />
+</Solution>

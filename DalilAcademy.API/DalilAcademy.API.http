@@ -1,0 +1,20 @@
+@HostAddress = http://localhost:5147
+
+GET {{HostAddress}}/api/students
+
+###
+POST {{HostAddress}}/api/students
+Content-Type: application/json
+
+{ "fullName": "Rami Odeh", "email": "rami.odeh@dalil.academy" }
+
+###
+POST {{HostAddress}}/api/enrollments
+Content-Type: application/json
+
+{ "studentId": 1, "courseId": 1 }
+
+###
+GET {{HostAddress}}/api/students/1/courses
+
+###
